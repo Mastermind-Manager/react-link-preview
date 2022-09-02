@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { LinkPreview } from './LinkPreview';
 
 const customFetcher = async (url: string) => {
-  const response = await fetch(`https://rlp-proxy.herokuapp.com/v2?url=${url}`);
+  const response = await fetch(`https://rlp-proxy.nucleusapp.io?url=${url}`);
   const json = await response.json();
   return json.metadata;
 };
