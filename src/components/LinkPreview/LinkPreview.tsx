@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import './linkPreview.scss';
 import Skeleton from './Skeleton';
 
-const proxyLink = 'https://rlp-proxy.herokuapp.com/v2?url=';
+const proxyLink = 'https://rlp-proxy.nucleusapp.io/v2?url=';
 export const placeholderImg = 'https://i.imgur.com/UeDNBNQ.jpeg';
 
 function isValidResponse(res: APIResponse | null): boolean {
